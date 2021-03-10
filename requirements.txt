@@ -1,0 +1,4 @@
+tinyaes
+tkinter
+pyinstaller
+pyperclip

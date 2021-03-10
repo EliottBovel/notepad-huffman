@@ -1,0 +1,2 @@
+pyinstaller --onedir -n Huffman --icon="%cd%\icon.ico" --specpath /spec --add-data "%cd%\icon.ico;." --key k3t3 --noconsole --win-private-assemblies --win-no-prefer-redirects --noconfirm main.py
+pyinstaller --onefile -n Huffman --icon="%cd%\icon.ico" --specpath /spec --add-data "%cd%\icon.ico;." --key k3t3 --noconsole --win-private-assemblies --win-no-prefer-redirects --noconfirm main.py
